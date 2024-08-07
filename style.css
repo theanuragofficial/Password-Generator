@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  border: 5px solid lightgray;
+  border-radius: 1px;
+}
+
+.result {
+  margin: 10px 0;
+}
+
+.pass-display {
+  width: 250px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.setting {
+  width: 300px;
+  font-size: 20px;
+}
+
+.slider {
+  display: flex;
+  margin: 30px 0;
+}
+
+#slider-input {
+  width: 135px;
+  margin: 0 15px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 80px;
+  margin: 10px 0;
+}
+
+.generate-btn {
+  padding: 10px 100px;
+  margin: 20px 0;
+  background: #6e4ff8;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid lightgray;
+  border-radius: 30px;
+}
